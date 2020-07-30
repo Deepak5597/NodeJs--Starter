@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.top-nav{
+    height:10vh;
+}
+
+.main-content{
+    height: 90vh;
+    text-align: center;
+    position: relative;
+}
+
+.main-content p{
+    letter-spacing: 2px;
+}
+
+.content{
+    position: absolute !important;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+a.ext-link{
+    text-decoration: underline;
+}
+h4{
+    font-weight: 700;
+}
